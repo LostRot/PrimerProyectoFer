@@ -1,7 +1,9 @@
 
-
+#Importación de funciones
 from operator import truediv
 import math as m
+
+#Validación de datos por medio de funciones
 
 def validarEntero(numero): 
     while not numero.isdigit():
@@ -19,14 +21,17 @@ def validarReal(text):
         except ValueError:
             print("Error, debe ingresar un numero  ")
 
+#Calcula e imprime el volumen del tanque
 def volumenTanque(longitud,diametro):
    
     volumen=((m.pi*(diametro**2))/4)*longitud
     print("\n\n El volumen es: " + str(volumen))
     return volumen
 
+#Calcula e imprime el volumen del líquido
 def volumenLiquido(altura,diametro,longitud):
     razon=(altura/diametro)
+    #Imprime en pantalla
     print ("\nLa razon es: "+ str(razon))
     fraccion=0
     eleccion=validarEntero(input("\nIngrese 0 si posee la tabla 6.5 del manual del ingeniero químico\nIngrese 1 si no cuenta con la tabla 6.5 del manual del ingeniero químico:\n "))
