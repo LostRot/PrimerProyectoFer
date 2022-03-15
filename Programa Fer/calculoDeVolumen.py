@@ -1,7 +1,7 @@
 
 '''edad= int(input("Ingrese su edad:  "))
 
-if edad>25:
+if edad>50:
    print("Ya estad viejo :c "+ str(edad) )
 elif edad==25:
     print("perfecto")
