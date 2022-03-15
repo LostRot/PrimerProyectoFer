@@ -12,9 +12,9 @@ else:
 #for i in range(1,10):
 #    print("hola"+str(i))
 
-'''i=25
+'''i=255
 n=0
-while i>n:
+while i>n: 
     print("*"+str(n))
     n+=1'''
 import funciones as f
